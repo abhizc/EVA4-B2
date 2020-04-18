@@ -1,9 +1,9 @@
 # MNIST implementation in Pytorch
 
-Total Parameters Used:
+Total Parameters Used: **11,730**
 
 
-Highest Accuracy acheived:
+Highest Accuracy acheived:**99.20%**
 
 
 Number of Epocs: *20*
