@@ -6,7 +6,7 @@ Total Parameters Used: **11,730**
 Highest Accuracy acheived:**99.20%**
 
 
-Number of Epocs: *20*
+Number of Epocs: **20**
 
 
 
