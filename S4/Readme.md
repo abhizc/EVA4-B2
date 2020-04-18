@@ -10,15 +10,10 @@ Number of Epocs: *20*
 
 
 
-Model Summary
+**Model Summary**
 
-
-
-----------------------------------------------------------------
 
         Layer (type)               Output Shape         Param #
-        
-================================================================
 
             Conv2d-1            [-1, 8, 28, 28]              80
             Conv2d-2            [-1, 8, 28, 28]             584
@@ -31,20 +26,18 @@ Model Summary
             Conv2d-9             [-1, 32, 5, 5]           4,640
            Conv2d-10             [-1, 10, 3, 3]           2,890
         AvgPool2d-11             [-1, 10, 1, 1]               0
-================================================================
+
 Total params: 11,730
+
 Trainable params: 11,730
+
 Non-trainable params: 0
-----------------------------------------------------------------
-Input size (MB): 0.00
-Forward/backward pass size (MB): 0.24
-Params size (MB): 0.04
-Estimated Total Size (MB): 0.29
 
 
-Epoch Logs
 
-0%|          | 0/469 [00:00<?, ?it/s]/usr/local/lib/python3.6/dist-packages/ipykernel_launcher.py:29: UserWarning: Implicit dimension choice for log_softmax has been deprecated. Change the call to include dim=X as an argument.
+**Epoch Logs**
+
+
 loss=0.15335333347320557 batch_id=468: 100%|██████████| 469/469 [00:17<00:00, 26.95it/s]
   0%|          | 0/469 [00:00<?, ?it/s]
 Test set: Average loss: 0.0634, Accuracy: 9801/10000 (98.01%)
